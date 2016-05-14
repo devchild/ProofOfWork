@@ -122,7 +122,7 @@ namespace ProofOfWork
             buffer.Flush();
 
             byte[] hash = ComputeSHA512(stream.GetBuffer());
-            String hashString = BitConverter.ToString(hash).Replace("-", "");
+            string hashString = BitConverter.ToString(hash).Replace("-", "");
             return hashString.Equals(proof.Hash);
         }
     }
