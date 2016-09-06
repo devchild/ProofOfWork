@@ -1,2 +1,2 @@
 # ProofOfWork
-Simple example of the proof of work concept
+Simple example of the proof of work concept. TEST
